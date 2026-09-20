@@ -1,0 +1,684 @@
+{
+  "siteId": "cobra",
+  "redditSr": "cobrachat",
+  "name": "cobrachat",
+  "domain": "cobrachat.com",
+  "tagline": "Hoods up.",
+  "composePlaceholder": "Species note, myth bust, or story?",
+  "earlyWelcome": true,
+  "dms": true,
+  "preview": true,
+  "robots": "noindex,nofollow",
+  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education \u2014 not sales. Care nest = education, not husbandry for illegal keeping.",
+  "theme": {
+    "bg": "#12180e",
+    "surface": "#1a2214",
+    "nav-bg": "#0a0e08",
+    "nav-text": "#a8b890",
+    "nav-hover": "#e8f0d8",
+    "nav-active": "#e8f0d8",
+    "text": "#e8f0d8",
+    "text-muted": "#a8b890",
+    "text-light": "#6a7858",
+    "accent": "#c4a020",
+    "accent-dark": "#9a7a10",
+    "teal": "#5a8a4a",
+    "silver": "#c0c8a8",
+    "border": "#2a3220",
+    "avatarColors": [
+      "#c4a020",
+      "#9a7a10",
+      "#5a8a4a",
+      "#3a5a28",
+      "#8a6830",
+      "#d4c878"
+    ]
+  },
+  "trends": [
+    {
+      "tag": "King",
+      "headline": "Longest venomous \u2014 public lore",
+      "snippet": "Species card energy.",
+      "meta": "Nest: king"
+    },
+    {
+      "tag": "Myth",
+      "headline": "They don't dance to music",
+      "snippet": "Myth vs fact pin.",
+      "meta": "Nest: myth"
+    },
+    {
+      "tag": "Care",
+      "headline": "Education, not sales",
+      "snippet": "Wild animals stay wild.",
+      "meta": "Nest: care"
+    },
+    {
+      "tag": "Indian",
+      "headline": "Spectacled hood ID",
+      "snippet": "Dummy species note.",
+      "meta": "Nest: indian"
+    },
+    {
+      "tag": "Spitting",
+      "headline": "Defense lore \u2014 no how-to",
+      "snippet": "Medical issues go to a doctor.",
+      "meta": "Nest: spitting"
+    },
+    {
+      "tag": "Forest",
+      "headline": "Taxonomy complex note",
+      "snippet": "Public education stub.",
+      "meta": "Nest: forest"
+    }
+  ],
+  "places": [
+    {
+      "tag": "Species",
+      "title": "King",
+      "snippet": "Ophiophagus hannah lore."
+    },
+    {
+      "tag": "Species",
+      "title": "Indian",
+      "snippet": "Spectacled cobra."
+    },
+    {
+      "tag": "Topic",
+      "title": "Myth",
+      "snippet": "Myth vs fact pins."
+    },
+    {
+      "tag": "Topic",
+      "title": "Care",
+      "snippet": "Education, not sales."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Education",
+      "title": "Species cards",
+      "snippet": "Photo later \u2014 data first."
+    },
+    {
+      "tag": "Myth",
+      "title": "Myth vs fact",
+      "snippet": "Bust folklore kindly."
+    },
+    {
+      "tag": "Care",
+      "title": "Wildlife stays wild",
+      "snippet": "No illegal husbandry tips."
+    },
+    {
+      "tag": "Safety",
+      "title": "No how-to harm",
+      "snippet": "Spitting nest = behavior overview only."
+    }
+  ],
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seed": [
+    {
+      "id": "p1",
+      "name": "Hood Watch",
+      "handle": "hoodwatch",
+      "text": "King cobra range note from public sources. Nest: king. Education stub.",
+      "hours": 2,
+      "likes": 96,
+      "replies": 12,
+      "followed": true,
+      "nestSlug": "king"
+    },
+    {
+      "id": "p2",
+      "name": "Myth Buster",
+      "handle": "mythbuster",
+      "text": "Cobras do not dance to music \u2014 they track movement. Myth nest.",
+      "hours": 4,
+      "likes": 130,
+      "replies": 24,
+      "followed": true,
+      "nestSlug": "myth"
+    },
+    {
+      "id": "p3",
+      "name": "Care Note",
+      "handle": "carenote",
+      "text": "Wild animals stay wild. Care nest = education, not sales.",
+      "hours": 6,
+      "likes": 71,
+      "replies": 9,
+      "followed": false,
+      "nestSlug": "care"
+    },
+    {
+      "id": "p4",
+      "name": "Spectacle",
+      "handle": "spectacle",
+      "text": "Spectacled hood ID. Indian nest stub.",
+      "hours": 9,
+      "likes": 58,
+      "replies": 7,
+      "followed": true,
+      "nestSlug": "indian"
+    },
+    {
+      "id": "p5",
+      "name": "Forest Walk",
+      "handle": "forestwalk",
+      "text": "Forest cobra taxonomy is a complex. Nest: forest. Public education.",
+      "hours": 12,
+      "likes": 44,
+      "replies": 5,
+      "followed": true,
+      "nestSlug": "forest"
+    },
+    {
+      "id": "p6",
+      "name": "Spit Fact",
+      "handle": "spitfact",
+      "text": "Not all cobras spit. Behavior overview only \u2014 no how-to. Nest: spitting.",
+      "hours": 16,
+      "likes": 82,
+      "replies": 11,
+      "followed": false,
+      "nestSlug": "spitting"
+    }
+  ],
+  "notifs": [
+    {
+      "id": "n1",
+      "text": "@mythbuster liked your myth take.",
+      "time": "1h",
+      "unread": true
+    },
+    {
+      "id": "n2",
+      "text": "@hoodwatch mentioned you in king.",
+      "time": "3h",
+      "unread": true
+    },
+    {
+      "id": "n3",
+      "text": "@carenote started following you. Dummy follow.",
+      "time": "Yesterday",
+      "unread": true
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "name": "Myth Buster",
+      "handle": "mythbuster",
+      "preview": "Music myth again?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Music myth again?"
+        },
+        {
+          "me": true,
+          "text": "They track the movement. Myth nest."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Care Note",
+      "handle": "carenote",
+      "preview": "Education not sales.",
+      "messages": [
+        {
+          "me": false,
+          "text": "Education not sales."
+        },
+        {
+          "me": true,
+          "text": "Care nest rule."
+        }
+      ]
+    }
+  ],
+  "rail": {
+    "kind": "room-brief",
+    "title": "Room Brief",
+    "kicker": "On cobra",
+    "meta": "Preview \u00b7 noindex",
+    "footer": "Species education + myth vs fact. Care nest = education, not sales.",
+    "porch": {
+      "prompt": "Hoods up \u2014 what's the take?",
+      "dwellMs": 9000,
+      "options": [
+        "Species",
+        "Myth bust",
+        "Care note"
+      ]
+    },
+    "outbound": [
+      {
+        "tag": "Science",
+        "headline": "IUCN Red List (example)",
+        "snippet": "Public conservation status lookups.",
+        "meta": "Public",
+        "url": "https://www.iucnredlist.org/"
+      },
+      {
+        "tag": "Education",
+        "headline": "Wildlife education over ownership",
+        "snippet": "Care nest disclaimer.",
+        "meta": "Preview",
+        "url": null
+      }
+    ]
+  },
+  "nests": [
+    {
+      "slug": "king",
+      "label": "King",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Ophiophagus hannah \u2014 longest venomous snake lore.",
+      "rankings": [
+        {
+          "id": "king-card",
+          "title": "King \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Range & habitat (public)",
+              "note": "Education card",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Diet: other snakes",
+              "note": "Species note",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Conservation status (public)",
+              "note": "Check IUCN-style sources",
+              "url": "https://www.iucnredlist.org/"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-king-1",
+          "subject": "Species card stub",
+          "stars": 5,
+          "snippet": "Education only.",
+          "region": "US"
+        },
+        {
+          "id": "r-king-2",
+          "subject": "Doc footage take",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "indian",
+      "label": "Indian",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Naja naja \u2014 spectacled cobra.",
+      "rankings": [
+        {
+          "id": "indian-card",
+          "title": "Indian \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Hood markings lore",
+              "note": "ID note",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Range across South Asia",
+              "note": "Public maps",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Myth vs fact crossover",
+              "note": "See myth nest",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-indian-1",
+          "subject": "Spectacled ID",
+          "stars": 5,
+          "snippet": "Education stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-indian-2",
+          "subject": "Range note",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "egyptian",
+      "label": "Egyptian",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Naja haje \u2014 North African cobra.",
+      "rankings": [
+        {
+          "id": "egyptian-card",
+          "title": "Egyptian \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Historical iconography",
+              "note": "Culture + species",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Habitat notes (public)",
+              "note": "Education",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Compare to other Naja",
+              "note": "Species table later",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-egypt-1",
+          "subject": "Iconography vs biology",
+          "stars": 4,
+          "snippet": "Stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-egypt-2",
+          "subject": "Habitat note",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "monocled",
+      "label": "Monocled",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Naja kaouthia \u2014 monocled cobra.",
+      "rankings": [
+        {
+          "id": "monocled-card",
+          "title": "Monocled \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Monocle hood mark",
+              "note": "ID",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "SE Asia range",
+              "note": "Public",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Captive care != wild",
+              "note": "See care nest",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-mono-1",
+          "subject": "Hood ID stub",
+          "stars": 5,
+          "snippet": "Education.",
+          "region": "US"
+        },
+        {
+          "id": "r-mono-2",
+          "subject": "Range note",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "spitting",
+      "label": "Spitting",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Spitting cobras \u2014 defense lore, not how-to.",
+      "rankings": [
+        {
+          "id": "spitting-card",
+          "title": "Spitting \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Which species spit (public)",
+              "note": "Education",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Defense behavior overview",
+              "note": "No instructions",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Eye safety is medical \u2014 see a doctor",
+              "note": "Not first-aid advice",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-spit-1",
+          "subject": "Behavior overview",
+          "stars": 4,
+          "snippet": "Education only \u2014 no how-to.",
+          "region": "US"
+        },
+        {
+          "id": "r-spit-2",
+          "subject": "Species list stub",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "forest",
+      "label": "Forest",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Forest cobras & canopy lore.",
+      "rankings": [
+        {
+          "id": "forest-card",
+          "title": "Forest \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Forest cobra (Naja melanoleuca) complex",
+              "note": "Taxonomy note",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Habitat: forested Africa",
+              "note": "Public",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Size lore vs king",
+              "note": "Compare nests",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-forest-1",
+          "subject": "Taxonomy stub",
+          "stars": 4,
+          "snippet": "Education.",
+          "region": "US"
+        },
+        {
+          "id": "r-forest-2",
+          "subject": "Habitat note",
+          "stars": 5,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "care",
+      "label": "Care",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Wildlife education \u2014 not sales, not how-to keep illegally.",
+      "rankings": [
+        {
+          "id": "care-card",
+          "title": "Care \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Wild animals stay wild",
+              "note": "Hard rule",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Licensed rehab / zoo education",
+              "note": "Support public orgs",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Never handle wild cobras",
+              "note": "Safety",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-care-1",
+          "subject": "Education not sales",
+          "stars": 5,
+          "snippet": "Care nest = education.",
+          "region": "US"
+        },
+        {
+          "id": "r-care-2",
+          "subject": "Zoo program note",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "disclaimer": "Education only \u2014 not sales, not husbandry instructions for illegal keeping."
+    },
+    {
+      "slug": "myth",
+      "label": "Myth",
+      "parent": null,
+      "kind": "species",
+      "blurb": "Myth vs fact pins.",
+      "rankings": [
+        {
+          "id": "myth-card",
+          "title": "Myth \u00b7 species / topic pins",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Cobras charm to music? Myth",
+              "note": "Fact: they track movement",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "All cobras spit? Myth",
+              "note": "Fact: only some species",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "King cobra is a true cobra? Nuance",
+              "note": "Fact: related but genus Ophiophagus",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-myth-1",
+          "subject": "Music myth busted",
+          "stars": 5,
+          "snippet": "Myth vs fact.",
+          "region": "US"
+        },
+        {
+          "id": "r-myth-2",
+          "subject": "Spitting myth",
+          "stars": 5,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "mythVsFact": true
+    }
+  ],
+  "roomNumber": 16
+}
