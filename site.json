@@ -5,7 +5,7 @@
   "domain": "cobrachat.com",
   "tagline": "Hoods up.",
   "composePlaceholder": "Species note, myth bust, or story?",
-  "earlyWelcome": true,
+  "earlyWelcome": false,
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
@@ -283,32 +283,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Ophiophagus hannah \u2014 longest venomous snake lore.",
-      "rankings": [
-        {
-          "id": "king-card",
-          "title": "King \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Range & habitat (public)",
-              "note": "Education card",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Diet: other snakes",
-              "note": "Species note",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Conservation status (public)",
-              "note": "Check IUCN-style sources",
-              "url": "https://www.iucnredlist.org/"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-king-1",
@@ -333,32 +308,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Naja naja \u2014 spectacled cobra.",
-      "rankings": [
-        {
-          "id": "indian-card",
-          "title": "Indian \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Hood markings lore",
-              "note": "ID note",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Range across South Asia",
-              "note": "Public maps",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Myth vs fact crossover",
-              "note": "See myth nest",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-indian-1",
@@ -383,32 +333,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Naja haje \u2014 North African cobra.",
-      "rankings": [
-        {
-          "id": "egyptian-card",
-          "title": "Egyptian \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Historical iconography",
-              "note": "Culture + species",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Habitat notes (public)",
-              "note": "Education",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Compare to other Naja",
-              "note": "Species table later",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-egypt-1",
@@ -433,32 +358,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Naja kaouthia \u2014 monocled cobra.",
-      "rankings": [
-        {
-          "id": "monocled-card",
-          "title": "Monocled \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Monocle hood mark",
-              "note": "ID",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "SE Asia range",
-              "note": "Public",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Captive care != wild",
-              "note": "See care nest",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-mono-1",
@@ -483,32 +383,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Spitting cobras \u2014 defense lore, not how-to.",
-      "rankings": [
-        {
-          "id": "spitting-card",
-          "title": "Spitting \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Which species spit (public)",
-              "note": "Education",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Defense behavior overview",
-              "note": "No instructions",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Eye safety is medical \u2014 see a doctor",
-              "note": "Not first-aid advice",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-spit-1",
@@ -533,32 +408,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Forest cobras & canopy lore.",
-      "rankings": [
-        {
-          "id": "forest-card",
-          "title": "Forest \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Forest cobra (Naja melanoleuca) complex",
-              "note": "Taxonomy note",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Habitat: forested Africa",
-              "note": "Public",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Size lore vs king",
-              "note": "Compare nests",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-forest-1",
@@ -583,32 +433,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Wildlife education \u2014 not sales, not how-to keep illegally.",
-      "rankings": [
-        {
-          "id": "care-card",
-          "title": "Care \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Wild animals stay wild",
-              "note": "Hard rule",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Licensed rehab / zoo education",
-              "note": "Support public orgs",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Never handle wild cobras",
-              "note": "Safety",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-care-1",
@@ -634,32 +459,7 @@
       "parent": null,
       "kind": "species",
       "blurb": "Myth vs fact pins.",
-      "rankings": [
-        {
-          "id": "myth-card",
-          "title": "Myth \u00b7 species / topic pins",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Cobras charm to music? Myth",
-              "note": "Fact: they track movement",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "All cobras spit? Myth",
-              "note": "Fact: only some species",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "King cobra is a true cobra? Nuance",
-              "note": "Fact: related but genus Ophiophagus",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-myth-1",
