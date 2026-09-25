@@ -8,7 +8,7 @@
   "earlyWelcome": false,
   "dms": true,
   "preview": true,
-  "robots": "noindex,nofollow",
+  "robots": "noindex, nofollow",
   "emptyState": "Preview room — noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education — not sales. Care nest = education, not husbandry for illegal keeping.",
   "theme": {
     "bg": "#12100e",
@@ -76,12 +76,74 @@
     {
       "tag": "Species",
       "title": "King",
+      "snippet": "Ophiophagus hannah lore. Ask: range or diet first?"
+    },
+    {
+      "tag": "Species",
+      "title": "Indian",
+      "snippet": "Spectacled hood ID. Ask: marking or range?"
+    },
+    {
+      "tag": "Species",
+      "title": "Egyptian",
+      "snippet": "North African lore + museum labels."
+    },
+    {
+      "tag": "Species",
+      "title": "Monocled",
+      "snippet": "Naja kaouthia · papers welcome."
+    },
+    {
+      "tag": "Species",
+      "title": "Spitting",
+      "snippet": "Defense lore, not how-to."
+    },
+    {
+      "tag": "Species",
+      "title": "Forest",
+      "snippet": "Taxonomy complex · cite sources."
+    },
+    {
+      "tag": "Topic",
+      "title": "Myth",
+      "snippet": "Myth vs fact pins. What’s yours?"
+    },
+    {
+      "tag": "Topic",
+      "title": "Care",
+      "snippet": "Education, not sales. Wild stays wild."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Species",
+      "title": "King",
       "snippet": "Ophiophagus hannah lore."
     },
     {
       "tag": "Species",
       "title": "Indian",
-      "snippet": "Spectacled cobra."
+      "snippet": "Spectacled hood ID."
+    },
+    {
+      "tag": "Species",
+      "title": "Egyptian",
+      "snippet": "North African lore."
+    },
+    {
+      "tag": "Species",
+      "title": "Monocled",
+      "snippet": "Naja kaouthia papers welcome."
+    },
+    {
+      "tag": "Species",
+      "title": "Spitting",
+      "snippet": "Defense lore, not how-to."
+    },
+    {
+      "tag": "Species",
+      "title": "Forest",
+      "snippet": "Taxonomy complex · cite sources."
     },
     {
       "tag": "Topic",
@@ -92,28 +154,6 @@
       "tag": "Topic",
       "title": "Care",
       "snippet": "Education, not sales."
-    }
-  ],
-  "topics": [
-    {
-      "tag": "Education",
-      "title": "Species cards",
-      "snippet": "Photo later — data first."
-    },
-    {
-      "tag": "Myth",
-      "title": "Myth vs fact",
-      "snippet": "Bust folklore kindly."
-    },
-    {
-      "tag": "Care",
-      "title": "Wildlife stays wild",
-      "snippet": "No illegal husbandry tips."
-    },
-    {
-      "tag": "Safety",
-      "title": "No how-to harm",
-      "snippet": "Spitting nest = behavior overview only."
     }
   ],
   "stories": {
@@ -127,67 +167,133 @@
       "id": "p1",
       "name": "Hood Watch",
       "handle": "hoodwatch",
-      "text": "King cobra range note from public sources. Nest: king. Education stub.",
-      "hours": 2,
-      "likes": 96,
-      "replies": 12,
+      "nestSlug": "king",
+      "hours": 1,
+      "likes": 42,
+      "replies": 7,
       "followed": true,
-      "nestSlug": "king"
+      "text": "King cobras (Ophiophagus hannah) eat other snakes — that’s the genus name talking. Longest venomous snake lore, not a pet pitch. Anyone got a public-range map they trust?\n\nFACT: https://animaldiversity.org/accounts/Ophiophagus_hannah/"
     },
     {
       "id": "p2",
-      "name": "Myth Buster",
-      "handle": "mythbuster",
-      "text": "Cobras do not dance to music — they track movement. Myth nest.",
-      "hours": 4,
-      "likes": 130,
-      "replies": 24,
+      "name": "Range Note",
+      "handle": "rangenote",
+      "nestSlug": "king",
+      "hours": 5,
+      "likes": 31,
+      "replies": 4,
       "followed": true,
-      "nestSlug": "myth"
+      "text": "Smithsonian NZP’s king cobra page is a clean species card — diet, size, “look don’t keep.” What’s one line you’d add for newcomers?\n\nFACT: https://nationalzoo.si.edu/animals/king-cobra"
     },
     {
       "id": "p3",
-      "name": "Care Note",
-      "handle": "carenote",
-      "text": "Wild animals stay wild. Care nest = education, not sales.",
-      "hours": 6,
-      "likes": 71,
+      "name": "Spectacle",
+      "handle": "spectacle",
+      "nestSlug": "indian",
+      "hours": 2,
+      "likes": 55,
       "replies": 9,
-      "followed": false,
-      "nestSlug": "care"
+      "followed": true,
+      "text": "Spectacled hood marks on Naja naja are ID folklore gold — still check region + markings before you name it. Got a photo ID tip that stays kind (no capture flex)?\n\nFACT: https://animaldiversity.org/accounts/Naja_naja/"
     },
     {
       "id": "p4",
-      "name": "Spectacle",
-      "handle": "spectacle",
-      "text": "Spectacled hood ID. Indian nest stub.",
-      "hours": 9,
-      "likes": 58,
-      "replies": 7,
+      "name": "Nile Lore",
+      "handle": "nilelore",
+      "nestSlug": "egyptian",
+      "hours": 3,
+      "likes": 28,
+      "replies": 5,
       "followed": true,
-      "nestSlug": "indian"
+      "text": "Egyptian cobra (Naja haje) sits in North African lore and museum labels. History room energy — not a cosplay. What’s the best public museum note you’ve seen?\n\nFACT: https://www.britannica.com/animal/Egyptian-cobra"
     },
     {
       "id": "p5",
-      "name": "Forest Walk",
-      "handle": "forestwalk",
-      "text": "Forest cobra taxonomy is a complex. Nest: forest. Public education.",
-      "hours": 12,
-      "likes": 44,
-      "replies": 5,
+      "name": "Monocle",
+      "handle": "monocle",
+      "nestSlug": "monocled",
+      "hours": 4,
+      "likes": 37,
+      "replies": 6,
       "followed": true,
-      "nestSlug": "forest"
+      "text": "Monocled cobra (Naja kaouthia) — one “eye” marking, big SE Asia range talk. PubMed search is open if you want papers, not vibes. What paper title surprised you?\n\nFACT: https://pubmed.ncbi.nlm.nih.gov/?term=Naja+kaouthia"
     },
     {
       "id": "p6",
       "name": "Spit Fact",
       "handle": "spitfact",
-      "text": "Not all cobras spit. Behavior overview only — no how-to. Nest: spitting.",
-      "hours": 16,
-      "likes": 82,
+      "nestSlug": "spitting",
+      "hours": 6,
+      "likes": 61,
       "replies": 11,
-      "followed": false,
-      "nestSlug": "spitting"
+      "followed": true,
+      "text": "Not all cobras spit. Behavior overview only — no how-to, no aiming tips. If venom hits a person, that’s a doctor / poison-control problem, not a nest debate.\n\nFACT: https://www.britannica.com/animal/cobra-snake\nWHO: https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming"
+    },
+    {
+      "id": "p7",
+      "name": "Forest Walk",
+      "handle": "forestwalk",
+      "nestSlug": "forest",
+      "hours": 7,
+      "likes": 24,
+      "replies": 3,
+      "followed": true,
+      "text": "Forest cobra (Naja melanoleuca) complex — taxonomy gets messy in public sources. Name the source or say “unknown.” Who’s got a clean ADW note?\n\nFACT: https://animaldiversity.org/accounts/Naja_melanoleuca/"
+    },
+    {
+      "id": "p8",
+      "name": "Myth Buster",
+      "handle": "mythbuster",
+      "nestSlug": "myth",
+      "hours": 2,
+      "likes": 88,
+      "replies": 14,
+      "followed": true,
+      "text": "They don’t dance to music — they track movement. Charming is a story; the hood is a defense display. What’s the myth you heard growing up?\n\nFACT: https://www.britannica.com/animal/cobra-snake"
+    },
+    {
+      "id": "p9",
+      "name": "Story Desk",
+      "handle": "storydesk",
+      "nestSlug": "myth",
+      "hours": 9,
+      "likes": 19,
+      "replies": 2,
+      "followed": true,
+      "text": "King cobra “true cobra?” Nuance lives in systematics. Nat Geo’s king cobra facts page is a solid outbound for newcomers — open it before you argue.\n\nFACT: https://www.nationalgeographic.com/animals/reptiles/facts/king-cobra"
+    },
+    {
+      "id": "p10",
+      "name": "Care Note",
+      "handle": "carenote",
+      "nestSlug": "care",
+      "hours": 3,
+      "likes": 74,
+      "replies": 10,
+      "followed": true,
+      "text": "Wild animals stay wild. This nest is education, not sales, not illegal husbandry tips. If you’re here to buy or keep — wrong room. Agree?\n\nFACT: https://www.iucnredlist.org/"
+    },
+    {
+      "id": "p11",
+      "name": "Desk Doc",
+      "handle": "deskdoc",
+      "nestSlug": "care",
+      "hours": 8,
+      "likes": 33,
+      "replies": 5,
+      "followed": true,
+      "text": "WHO’s snakebite envenoming page is the public-health board — not a DIY. Medical issues → doctor / poison control. We keep that line hard.\n\nFACT: https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming"
+    },
+    {
+      "id": "p12",
+      "name": "Understory",
+      "handle": "understory",
+      "nestSlug": "king",
+      "hours": 11,
+      "likes": 16,
+      "replies": 3,
+      "followed": true,
+      "text": "Monsoon laterite mood check: longest venomous lore gets clicks; conservation status needs the Red List. Search before you claim “endangered vibes.”\n\nFACT: https://www.iucnredlist.org/"
     }
   ],
   "notifs": [
@@ -215,15 +321,23 @@
       "id": "t1",
       "name": "Myth Buster",
       "handle": "mythbuster",
-      "preview": "Music myth again?",
+      "preview": "do they dance though?",
       "messages": [
         {
           "me": false,
-          "text": "Music myth again?"
+          "text": "wait — so the flute isn’t the point?"
         },
         {
           "me": true,
-          "text": "They track the movement. Myth nest."
+          "text": "Right. Movement. Music myth is sticky because the show is sticky."
+        },
+        {
+          "me": false,
+          "text": "got a clean outbound for that?"
+        },
+        {
+          "me": true,
+          "text": "Britannica cobra overview is decent: https://www.britannica.com/animal/cobra-snake — then argue in Myth."
         }
       ]
     },
@@ -231,15 +345,47 @@
       "id": "t2",
       "name": "Care Note",
       "handle": "carenote",
-      "preview": "Education not sales.",
+      "preview": "looking for a king as a pet?",
       "messages": [
         {
           "me": false,
-          "text": "Education not sales."
+          "text": "any tips on keeping a king?"
         },
         {
           "me": true,
-          "text": "Care nest rule."
+          "text": "Soft no. Care nest = education, not husbandry. Wild stays wild."
+        },
+        {
+          "me": false,
+          "text": "where should I learn then?"
+        },
+        {
+          "me": true,
+          "text": "Start IUCN + a zoo edu page (NZP king cobra). Still not a how-to keep: https://nationalzoo.si.edu/animals/king-cobra"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "Spit Fact",
+      "handle": "spitfact",
+      "preview": "my cousin said all cobras spit",
+      "messages": [
+        {
+          "me": false,
+          "text": "all cobras spit right?"
+        },
+        {
+          "me": true,
+          "text": "No. Not all. Overview only — no aiming talk."
+        },
+        {
+          "me": false,
+          "text": "what if someone gets hit?"
+        },
+        {
+          "me": true,
+          "text": "Doctor / poison control. WHO board: https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming"
         }
       ]
     }
@@ -249,12 +395,12 @@
     "title": "Room Brief",
     "kicker": "On cobra",
     "meta": "Preview · noindex",
-    "footer": "Species education + myth vs fact. Care nest = education, not sales.",
+    "footer": "Species education + myth vs fact. Care nest = education, not sales. Free boards: IUCN · WHO snakebite.",
     "porch": {
-      "prompt": "Hoods up — what's the take?",
+      "prompt": "Hoods up — species ID, myth bust, or care note?",
       "dwellMs": 9000,
       "options": [
-        "Species",
+        "Species ID",
         "Myth bust",
         "Care note"
       ]
@@ -264,14 +410,14 @@
         "tag": "Board",
         "headline": "IUCN Red List board",
         "url": "https://www.iucnredlist.org/",
-        "snippet": "Official IUCN Red List. Not a pet shop; not husbandry advice.",
+        "snippet": "Official IUCN Red List — free conservation-status lookups. Not a pet shop.",
         "meta": "Official · board"
       },
       {
         "tag": "Board",
         "headline": "WHO snakebite desk",
         "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming",
-        "snippet": "Official WHO Snakebite envenoming page. Medical → doctor/poison control; no how-to harm.",
+        "snippet": "Official WHO snakebite envenoming page. Medical → doctor/poison control.",
         "meta": "Official · board"
       }
     ]
