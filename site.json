@@ -9,35 +9,35 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education \u2014 not sales. Care nest = education, not husbandry for illegal keeping.",
+  "emptyState": "Preview room — noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education — not sales. Care nest = education, not husbandry for illegal keeping.",
   "theme": {
-    "bg": "#12180e",
-    "surface": "#1a2214",
-    "nav-bg": "#0a0e08",
-    "nav-text": "#a8b890",
-    "nav-hover": "#e8f0d8",
-    "nav-active": "#e8f0d8",
-    "text": "#e8f0d8",
-    "text-muted": "#a8b890",
-    "text-light": "#6a7858",
-    "accent": "#c4a020",
-    "accent-dark": "#9a7a10",
-    "teal": "#5a8a4a",
-    "silver": "#c0c8a8",
-    "border": "#2a3220",
+    "bg": "#12100e",
+    "surface": "#1c1814",
+    "nav-bg": "#0a0908",
+    "nav-text": "#b8a990",
+    "nav-hover": "#efe8d8",
+    "nav-active": "#efe8d8",
+    "text": "#efe8d8",
+    "text-muted": "#b8a990",
+    "text-light": "#7a6e5c",
+    "accent": "#d4a04a",
+    "accent-dark": "#a67a30",
+    "teal": "#3d7a5a",
+    "silver": "#c9bba0",
+    "border": "#2e2820",
     "avatarColors": [
-      "#c4a020",
-      "#9a7a10",
-      "#5a8a4a",
-      "#3a5a28",
+      "#d4a04a",
+      "#b85a32",
+      "#3d7a5a",
       "#8a6830",
-      "#d4c878"
+      "#c9922a",
+      "#efe8d8"
     ]
   },
   "trends": [
     {
       "tag": "King",
-      "headline": "Longest venomous \u2014 public lore",
+      "headline": "Longest venomous — public lore",
       "snippet": "Species card energy.",
       "meta": "Nest: king"
     },
@@ -61,7 +61,7 @@
     },
     {
       "tag": "Spitting",
-      "headline": "Defense lore \u2014 no how-to",
+      "headline": "Defense lore — no how-to",
       "snippet": "Medical issues go to a doctor.",
       "meta": "Nest: spitting"
     },
@@ -98,7 +98,7 @@
     {
       "tag": "Education",
       "title": "Species cards",
-      "snippet": "Photo later \u2014 data first."
+      "snippet": "Photo later — data first."
     },
     {
       "tag": "Myth",
@@ -121,7 +121,7 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seedNote": "sample — not mixed into the live feed",
   "seed": [
     {
       "id": "p1",
@@ -138,7 +138,7 @@
       "id": "p2",
       "name": "Myth Buster",
       "handle": "mythbuster",
-      "text": "Cobras do not dance to music \u2014 they track movement. Myth nest.",
+      "text": "Cobras do not dance to music — they track movement. Myth nest.",
       "hours": 4,
       "likes": 130,
       "replies": 24,
@@ -182,7 +182,7 @@
       "id": "p6",
       "name": "Spit Fact",
       "handle": "spitfact",
-      "text": "Not all cobras spit. Behavior overview only \u2014 no how-to. Nest: spitting.",
+      "text": "Not all cobras spit. Behavior overview only — no how-to. Nest: spitting.",
       "hours": 16,
       "likes": 82,
       "replies": 11,
@@ -248,10 +248,10 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On cobra",
-    "meta": "Preview \u00b7 noindex",
+    "meta": "Preview · noindex",
     "footer": "Species education + myth vs fact. Care nest = education, not sales.",
     "porch": {
-      "prompt": "Hoods up \u2014 what's the take?",
+      "prompt": "Hoods up — what's the take?",
       "dwellMs": 9000,
       "options": [
         "Species",
@@ -261,18 +261,18 @@
     },
     "outbound": [
       {
-        "tag": "Science",
-        "headline": "IUCN Red List (example)",
-        "snippet": "Public conservation status lookups.",
-        "meta": "Public",
-        "url": "https://www.iucnredlist.org/"
+        "tag": "Board",
+        "headline": "IUCN Red List board",
+        "url": "https://www.iucnredlist.org/",
+        "snippet": "Official IUCN Red List. Not a pet shop; not husbandry advice.",
+        "meta": "Official · board"
       },
       {
-        "tag": "Education",
-        "headline": "Wildlife education over ownership",
-        "snippet": "Care nest disclaimer.",
-        "meta": "Preview",
-        "url": null
+        "tag": "Board",
+        "headline": "WHO snakebite desk",
+        "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming",
+        "snippet": "Official WHO Snakebite envenoming page. Medical → doctor/poison control; no how-to harm.",
+        "meta": "Official · board"
       }
     ]
   },
@@ -282,7 +282,7 @@
       "label": "King",
       "parent": null,
       "kind": "species",
-      "blurb": "Ophiophagus hannah \u2014 longest venomous snake lore.",
+      "blurb": "Ophiophagus hannah — longest venomous snake lore.",
       "rankings": [],
       "reviews": [
         {
@@ -307,7 +307,7 @@
       "label": "Indian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja naja \u2014 spectacled cobra.",
+      "blurb": "Naja naja — spectacled cobra.",
       "rankings": [],
       "reviews": [
         {
@@ -332,7 +332,7 @@
       "label": "Egyptian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja haje \u2014 North African cobra.",
+      "blurb": "Naja haje — North African cobra.",
       "rankings": [],
       "reviews": [
         {
@@ -357,7 +357,7 @@
       "label": "Monocled",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja kaouthia \u2014 monocled cobra.",
+      "blurb": "Naja kaouthia — monocled cobra.",
       "rankings": [],
       "reviews": [
         {
@@ -382,14 +382,14 @@
       "label": "Spitting",
       "parent": null,
       "kind": "species",
-      "blurb": "Spitting cobras \u2014 defense lore, not how-to.",
+      "blurb": "Spitting cobras — defense lore, not how-to.",
       "rankings": [],
       "reviews": [
         {
           "id": "r-spit-1",
           "subject": "Behavior overview",
           "stars": 4,
-          "snippet": "Education only \u2014 no how-to.",
+          "snippet": "Education only — no how-to.",
           "region": "US"
         },
         {
@@ -432,7 +432,7 @@
       "label": "Care",
       "parent": null,
       "kind": "species",
-      "blurb": "Wildlife education \u2014 not sales, not how-to keep illegally.",
+      "blurb": "Wildlife education — not sales, not how-to keep illegally.",
       "rankings": [],
       "reviews": [
         {
@@ -451,7 +451,7 @@
         }
       ],
       "railPins": [],
-      "disclaimer": "Education only \u2014 not sales, not husbandry instructions for illegal keeping."
+      "disclaimer": "Education only — not sales, not husbandry instructions for illegal keeping."
     },
     {
       "slug": "myth",
