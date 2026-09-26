@@ -626,5 +626,111 @@
       "mythVsFact": true
     }
   ],
-  "roomNumber": 16
+  "roomNumber": 16,
+  "taxonomy": {
+    "version": 1,
+    "name": "Species desk",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "king",
+        "label": "King cobra",
+        "kind": "species",
+        "blurb": "Ophiophagus",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "king"
+      },
+      {
+        "id": "indian",
+        "label": "Indian cobra",
+        "kind": "species",
+        "blurb": "Naja naja",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "indian"
+      },
+      {
+        "id": "egyptian",
+        "label": "Egyptian cobra",
+        "kind": "species",
+        "blurb": "Naja haje",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "egyptian"
+      },
+      {
+        "id": "monocled",
+        "label": "Monocled",
+        "kind": "species",
+        "blurb": "Naja kaouthia",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "monocled"
+      },
+      {
+        "id": "spitting",
+        "label": "Spitting cobras",
+        "kind": "species",
+        "blurb": "Defense lore — no how-to",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "spitting"
+      },
+      {
+        "id": "forest",
+        "label": "Forest cobras",
+        "kind": "species",
+        "blurb": "Naja melanoleuca complex",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "forest"
+      },
+      {
+        "id": "care-edu",
+        "label": "Care = education",
+        "kind": "theme",
+        "blurb": "Not illegal husbandry",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "care"
+      },
+      {
+        "id": "myth",
+        "label": "Myth vs fact",
+        "kind": "theme",
+        "blurb": "Bust lore",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active",
+        "nestSlug": "myth"
+      },
+      {
+        "id": "redlist",
+        "label": "Conservation",
+        "kind": "theme",
+        "blurb": "IUCN-style status",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "king",
+      "indian",
+      "spitting",
+      "care-edu",
+      "myth"
+    ],
+    "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
+  },
+  "v": 1,
+  "cacheBust": 1
 }
