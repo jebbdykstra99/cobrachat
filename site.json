@@ -428,202 +428,118 @@
       "label": "King",
       "parent": null,
       "kind": "species",
-      "blurb": "Ophiophagus hannah — longest venomous snake lore.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-king-1",
-          "subject": "Species card stub",
-          "stars": 5,
-          "snippet": "Education only.",
-          "region": "US"
-        },
-        {
-          "id": "r-king-2",
-          "subject": "Doc footage take",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Ophiophagus hannah — diet + size lore; not a royal caste. Observe, don't handle.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": [
+        "no how-to handle",
+        "no provoke"
+      ]
     },
     {
       "slug": "indian",
       "label": "Indian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja naja — spectacled cobra.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-indian-1",
-          "subject": "Spectacled ID",
-          "stars": 5,
-          "snippet": "Education stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-indian-2",
-          "subject": "Range note",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Naja naja — spectacled / Indian cobra; range and ID talk, not pet goals.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": [
+        "education not sales"
+      ]
     },
     {
       "slug": "egyptian",
       "label": "Egyptian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja haje — North African cobra.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-egypt-1",
-          "subject": "Iconography vs biology",
-          "stars": 4,
-          "snippet": "Stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-egypt-2",
-          "subject": "Habitat note",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Naja haje — North African / Near East lore; captive boards ≠ wild density.",
+      "nav": true,
+      "defaultTopic": false,
+      "softLocks": []
     },
     {
       "slug": "monocled",
       "label": "Monocled",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja kaouthia — monocled cobra.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-mono-1",
-          "subject": "Hood ID stub",
-          "stars": 5,
-          "snippet": "Education.",
-          "region": "US"
-        },
-        {
-          "id": "r-mono-2",
-          "subject": "Range note",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Naja kaouthia — monocle mark varies; don't ID from one blurry phone pic.",
+      "nav": true,
+      "defaultTopic": false,
+      "softLocks": []
     },
     {
       "slug": "spitting",
       "label": "Spitting",
       "parent": null,
       "kind": "species",
-      "blurb": "Spitting cobras — defense lore, not how-to.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-spit-1",
-          "subject": "Behavior overview",
-          "stars": 4,
-          "snippet": "Education only — no how-to.",
-          "region": "US"
-        },
-        {
-          "id": "r-spit-2",
-          "subject": "Species list stub",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Spitting Naja — defense lore only. Eyes hit? Irrigate + medical care. No how-to spit.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": [
+        "no how-to spit/aim",
+        "medical→doctor",
+        "Britannica+WHO in body when citing"
+      ]
     },
     {
       "slug": "forest",
       "label": "Forest",
       "parent": null,
       "kind": "species",
-      "blurb": "Forest cobras & canopy lore.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-forest-1",
-          "subject": "Taxonomy stub",
-          "stars": 4,
-          "snippet": "Education.",
-          "region": "US"
-        },
-        {
-          "id": "r-forest-2",
-          "subject": "Habitat note",
-          "stars": 5,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": []
+      "blurb": "Naja melanoleuca complex — wooded/riparian cover; quiet range maps over jungle-king lore.",
+      "nav": true,
+      "defaultTopic": false,
+      "softLocks": []
     },
     {
-      "slug": "care",
-      "label": "Care",
+      "slug": "id",
+      "label": "Species ID",
       "parent": null,
-      "kind": "species",
-      "blurb": "Wildlife education — not sales, not how-to keep illegally.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-care-1",
-          "subject": "Education not sales",
-          "stars": 5,
-          "snippet": "Care nest = education.",
-          "region": "US"
-        },
-        {
-          "id": "r-care-2",
-          "subject": "Zoo program note",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "disclaimer": "Education only — not sales, not husbandry instructions for illegal keeping."
+      "kind": "theme",
+      "blurb": "Photo + location first (r/whatsthissnake pattern). Distance; never catch or kill for ID.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": [
+        "no catch/kill",
+        "location matters"
+      ]
     },
     {
       "slug": "myth",
-      "label": "Myth",
+      "label": "Myth vs fact",
       "parent": null,
-      "kind": "species",
-      "blurb": "Myth vs fact pins.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-myth-1",
-          "subject": "Music myth busted",
-          "stars": 5,
-          "snippet": "Myth vs fact.",
-          "region": "US"
-        },
-        {
-          "id": "r-myth-2",
-          "subject": "Spitting myth",
-          "stars": 5,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "mythVsFact": true
+      "kind": "theme",
+      "blurb": "Charm-to-music, all-spit, angry-hood myths — label FACT / STORYLINE / OPINION.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": []
+    },
+    {
+      "slug": "care",
+      "label": "Care = education",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "What researchers study — not husbandry how-to, not illegal keep/take, not sales.",
+      "nav": true,
+      "defaultTopic": true,
+      "softLocks": [
+        "no illegal husbandry",
+        "no sales",
+        "herp society not chat"
+      ]
+    },
+    {
+      "slug": "conservation",
+      "label": "Conservation",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "IUCN / status desk — cite Red List; no viral uncited charts.",
+      "nav": true,
+      "defaultTopic": false,
+      "softLocks": [
+        "cite IUCN"
+      ]
     }
   ],
   "roomNumber": 16,
