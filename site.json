@@ -1,6 +1,5 @@
 {
   "siteId": "cobra",
-  "redditSr": "cobrachat",
   "name": "cobrachat",
   "domain": "cobrachat.com",
   "tagline": "Hoods up.",
@@ -648,5 +647,11 @@
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "redditCrosspost": false,
+  "skin": {
+    "avatarInitials": "CO",
+    "bioDefault": "Wildlife education — not ownership advice.",
+    "profileEmpty": "No posts yet. Hit Post with a species note, myth bust, or story."
+  }
 }
