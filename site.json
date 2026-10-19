@@ -657,5 +657,6 @@
     "avatarInitials": "CO",
     "bioDefault": "Wildlife education — not ownership advice.",
     "profileEmpty": "No posts yet. Hit Post with a species note, myth bust, or story."
-  }
+  },
+  "minAge": 18
 }
