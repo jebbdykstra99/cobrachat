@@ -47,7 +47,7 @@
       "id": "spitting",
       "label": "Spitting cobras",
       "kind": "species",
-      "blurb": "Defense lore — no how-to",
+      "blurb": "Defense lore, no how-to",
       "followDefault": true,
       "adminSeed": true,
       "status": "active",
