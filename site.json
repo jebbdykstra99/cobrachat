@@ -8,7 +8,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex, nofollow",
-  "emptyState": "Preview room — noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education — not sales. Care nest = education, not husbandry for illegal keeping.",
+  "emptyState": "Preview room: noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education, not sales. Care nest = education, not husbandry for illegal keeping.",
   "theme": {
     "bg": "#12100e",
     "surface": "#1c1814",
@@ -36,7 +36,7 @@
   "trends": [
     {
       "tag": "King",
-      "headline": "Longest venomous — public lore",
+      "headline": "Longest venomous: public lore",
       "snippet": "Species card energy.",
       "meta": "Nest: king"
     },
@@ -60,7 +60,7 @@
     },
     {
       "tag": "Spitting",
-      "headline": "Defense lore — no how-to",
+      "headline": "Defense lore, no how-to",
       "snippet": "Medical issues go to a doctor.",
       "meta": "Nest: spitting"
     },
@@ -160,7 +160,7 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed",
+  "seedNote": "sample, not mixed into the live feed",
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
@@ -168,7 +168,7 @@
     "meta": "Preview · noindex",
     "footer": "Species education + myth vs fact. Care nest = education, not sales. Free boards: IUCN · WHO snakebite.",
     "porch": {
-      "prompt": "Hoods up — species ID, myth bust, or care note?",
+      "prompt": "Hoods up: species ID, myth bust, or care note?",
       "dwellMs": 9000,
       "options": [
         "Species ID",
@@ -181,7 +181,7 @@
         "tag": "Board",
         "headline": "IUCN Red List board",
         "url": "https://www.iucnredlist.org/",
-        "snippet": "Official IUCN Red List — free conservation-status lookups. Not a pet shop.",
+        "snippet": "Official IUCN Red List: free conservation-status lookups. Not a pet shop.",
         "meta": "Official · board"
       },
       {
@@ -199,7 +199,7 @@
       "label": "King",
       "parent": null,
       "kind": "species",
-      "blurb": "Ophiophagus hannah — diet + size lore; not a royal caste. Observe, don't handle.",
+      "blurb": "Ophiophagus hannah: diet + size lore; not a royal caste. Observe, don't handle.",
       "nav": true,
       "defaultTopic": true,
       "softLocks": [
@@ -212,7 +212,7 @@
       "label": "Indian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja naja — spectacled / Indian cobra; range and ID talk, not pet goals.",
+      "blurb": "Naja naja: spectacled / Indian cobra; range and ID talk, not pet goals.",
       "nav": true,
       "defaultTopic": true,
       "softLocks": [
@@ -224,7 +224,7 @@
       "label": "Egyptian",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja haje — North African / Near East lore; captive boards ≠ wild density.",
+      "blurb": "Naja haje: North African / Near East lore; captive boards ≠ wild density.",
       "nav": true,
       "defaultTopic": false,
       "softLocks": []
@@ -234,7 +234,7 @@
       "label": "Monocled",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja kaouthia — monocle mark varies; don't ID from one blurry phone pic.",
+      "blurb": "Naja kaouthia: monocle mark varies; don't ID from one blurry phone pic.",
       "nav": true,
       "defaultTopic": false,
       "softLocks": []
@@ -244,7 +244,7 @@
       "label": "Spitting",
       "parent": null,
       "kind": "species",
-      "blurb": "Spitting Naja — defense lore only. Eyes hit? Irrigate + medical care. No how-to spit.",
+      "blurb": "Spitting Naja: defense lore only. Eyes hit? Irrigate + medical care. No how-to spit.",
       "nav": true,
       "defaultTopic": true,
       "softLocks": [
@@ -258,7 +258,7 @@
       "label": "Forest",
       "parent": null,
       "kind": "species",
-      "blurb": "Naja melanoleuca complex — wooded/riparian cover; quiet range maps over jungle-king lore.",
+      "blurb": "Naja melanoleuca complex: wooded/riparian cover; quiet range maps over jungle-king lore.",
       "nav": true,
       "defaultTopic": false,
       "softLocks": []
@@ -281,7 +281,7 @@
       "label": "Myth vs fact",
       "parent": null,
       "kind": "theme",
-      "blurb": "Charm-to-music, all-spit, angry-hood myths — label FACT / STORYLINE / OPINION.",
+      "blurb": "Charm-to-music, all-spit, angry-hood myths: label FACT / STORYLINE / OPINION.",
       "nav": true,
       "defaultTopic": true,
       "softLocks": []
@@ -291,7 +291,7 @@
       "label": "Care = education",
       "parent": null,
       "kind": "theme",
-      "blurb": "What researchers study — not husbandry how-to, not illegal keep/take, not sales.",
+      "blurb": "What researchers study: not husbandry how-to, not illegal keep/take, not sales.",
       "nav": true,
       "defaultTopic": true,
       "softLocks": [
@@ -305,7 +305,7 @@
       "label": "Conservation",
       "parent": null,
       "kind": "theme",
-      "blurb": "IUCN / status desk — cite Red List; no viral uncited charts.",
+      "blurb": "IUCN / status desk: cite Red List; no viral uncited charts.",
       "nav": true,
       "defaultTopic": false,
       "softLocks": [
@@ -363,7 +363,7 @@
         "id": "spitting",
         "label": "Spitting cobras",
         "kind": "species",
-        "blurb": "Defense lore — no how-to",
+        "blurb": "Defense lore, no how-to",
         "followDefault": true,
         "adminSeed": true,
         "status": "active",
@@ -427,7 +427,7 @@
   },
   "skin": {
     "avatarInitials": "CO",
-    "bioDefault": "Wildlife education — not ownership advice.",
+    "bioDefault": "Wildlife education, not ownership advice.",
     "profileEmpty": "No posts yet. Hit Post with a species note, myth bust, or story."
   },
   "minAge": 18
