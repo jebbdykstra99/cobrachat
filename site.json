@@ -6,9 +6,9 @@
   "composePlaceholder": "Species note, myth bust, or story?",
   "earlyWelcome": false,
   "dms": true,
-  "preview": true,
-  "robots": "noindex, nofollow",
-  "emptyState": "Preview room: noindex until GTM lifts. Sign in to post. Guest can browse only. Wildlife education, not sales. Care nest = education, not husbandry for illegal keeping.",
+  "preview": false,
+  "robots": "index, follow",
+  "emptyState": "Public beta. Sign in to post. Guest can browse only. Wildlife education, not sales. Care nest = education, not husbandry for illegal keeping.",
   "theme": {
     "bg": "#12100e",
     "surface": "#1c1814",
@@ -165,7 +165,7 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On cobra",
-    "meta": "Preview · noindex",
+    "meta": "Public beta",
     "footer": "Species education + myth vs fact. Care nest = education, not sales. Free boards: IUCN · WHO snakebite.",
     "porch": {
       "prompt": "Hoods up: species ID, myth bust, or care note?",
