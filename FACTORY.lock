@@ -1,6 +1,6 @@
 {
   "factory": "jebbdykstra99/subx-factory",
-  "version": "v1.2.10",
+  "version": "v1.2.11",
   "room": "cobrachat",
   "siteId": "cobra",
   "files": {
@@ -14,5 +14,5 @@
   ],
   "exceptions": "see subx-factory EXCEPTIONS.md",
   "stampedAt": "2026-11-14T14:50:59Z",
-  "masterRef": "subx-factory cursor/featured-articles-pilot-2026-11-14 @ 0058a9634020477b19b89dd966d602c8292e1f41 (FACTORY_RELEASE.json v1.2.10 record, factory.js sha256 f18d07e4db5aaa2722f284aba542eb6b41a48699ae2bad0c54bbec5e558a29d0, 254966 B; factory-featured.js sha256 6a7b0944ad5ddffee073b0818d711fe88dc3761d310d3c3efb67d82759bda306, 9407 B). Featured articles pilot room: site.json featured block, styles.css pilot rules."
+  "masterRef": "subx-factory cursor/featured-articles-pilot-2026-11-14 @ 7d17a859d13eddd6dea5cbdbe7a7a30b097afcb2 (FACTORY_RELEASE.json v1.2.11 record, factory.js sha256 f18d07e4db5aaa2722f284aba542eb6b41a48699ae2bad0c54bbec5e558a29d0, 254966 B; factory-featured.js sha256 6a7b0944ad5ddffee073b0818d711fe88dc3761d310d3c3efb67d82759bda306, 9407 B). Featured articles pilot room: site.json featured block, styles.css pilot rules."
 }
