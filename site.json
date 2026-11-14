@@ -161,6 +161,25 @@
     "maxBytes": 8000000
   },
   "seedNote": "sample, not mixed into the live feed",
+  "featured": {
+    "featuredDays": 3,
+    "maxPinned": 3,
+    "articleMinChars": 600,
+    "label": "Our articles",
+    "handles": [
+      "namecheck",
+      "mythbuster",
+      "iddesk",
+      "hoodwatch",
+      "understory",
+      "redlistroom",
+      "carenote",
+      "deskdoc",
+      "foodweb",
+      "spitfact",
+      "najafield"
+    ]
+  },
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
