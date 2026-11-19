@@ -5,7 +5,7 @@
   "siteId": "cobra",
   "files": {
     "factory.js": "92f1f39d16a17beb25e189e277fd66c118cbb9959db6de430db98d974e0e9915",
-    "factory-more.js": "e63f7be22e9fc856f813d62f54ca7fea378cb59b0ed283b0596f2d97630ee823",
+    "factory-more.js": "cb7392cc31441dea865bf108e049d5f384ea04ae209219b6d6aa6ce80b4bb12d",
     "factory-signin.js": "51ce100803d5cc7270fbfa488841cb75594b8c0bf092ee41c28460c1d4105958",
     "styles.css": "1731f4d853446f5f11e2c3cbba07c50262231133f7f559178a81edc0ecf0635b"
   },
