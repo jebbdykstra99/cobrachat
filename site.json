@@ -418,8 +418,8 @@
     ],
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
-  "v": 1,
-  "cacheBust": 1,
+  "v": 2,
+  "cacheBust": 2,
   "redditCrosspost": false,
   "features": {
     "following": true,
@@ -431,5 +431,66 @@
     "profileEmpty": "No posts yet. Hit Post with a species note, myth bust, or story."
   },
   "minAge": 18,
-  "accountsOpen": true
+  "accountsOpen": true,
+  "heroImages": {
+    "interval": 7000,
+    "backsplash": "#0a0908",
+    "scrim": "linear-gradient(180deg, rgba(10,9,8,.06) 0%, rgba(10,9,8,.04) 45%, rgba(28,24,20,.16) 75%, rgba(10,9,8,.40) 100%)",
+    "items": [
+      {
+        "id": "cb01",
+        "src": "/assets/hero/cb01-king-kaeng-krachan-1200.webp",
+        "srcSm": "/assets/hero/cb01-king-kaeng-krachan-600.webp",
+        "fallback": "/assets/hero/cb01-king-kaeng-krachan-1200.jpg",
+        "w": 1200,
+        "h": 800,
+        "focal": "58% 40%",
+        "crop": "card-cover",
+        "alt": "A king cobra (Ophiophagus hannah) with its hood raised, photographed in dry grass at Kaeng Krachan National Park, Thailand.",
+        "credit": "Rushenb / Thai National Parks",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ophiophagus-hannah-kaeng-krachan-national-park.jpg",
+        "modified": "cropped",
+        "review_status": "approved",
+        "reviewed": "2026-11-20"
+      },
+      {
+        "id": "cb03",
+        "src": "/assets/hero/cb03-indian-mumbai-1200.webp",
+        "srcSm": "/assets/hero/cb03-indian-mumbai-600.webp",
+        "fallback": "/assets/hero/cb03-indian-mumbai-1200.jpg",
+        "w": 1200,
+        "h": 800,
+        "focal": "40% 42%",
+        "crop": "card-cover",
+        "alt": "An Indian cobra (Naja naja) with its hood raised on a leaf-strewn path in Mumbai, Maharashtra.",
+        "credit": "Dr. Raju Kasambe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Cobra_Naja_naja_by_Dr_Raju_Kasambe_DSCN4991_(9).jpg",
+        "modified": "cropped",
+        "review_status": "approved",
+        "reviewed": "2026-11-20"
+      },
+      {
+        "id": "cb04",
+        "src": "/assets/hero/cb04-cape-kgalagadi-1200.webp",
+        "srcSm": "/assets/hero/cb04-cape-kgalagadi-600.webp",
+        "fallback": "/assets/hero/cb04-cape-kgalagadi-1200.jpg",
+        "w": 1200,
+        "h": 800,
+        "focal": "50% 52%",
+        "crop": "card-cover",
+        "alt": "A yellow Cape cobra (Naja nivea) with its head raised on sand beside dry shrubs in Kgalagadi Transfrontier Park, photographed at night.",
+        "credit": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cape_Cobra_(Naja_nivea)_(47049105972).jpg",
+        "modified": "cropped",
+        "review_status": "approved",
+        "reviewed": "2026-11-20"
+      }
+    ]
+  }
 }
